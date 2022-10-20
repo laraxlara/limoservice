@@ -30,3 +30,8 @@ header {
     width: 400px;
     height: 400px;
 }
+
+.gatsby-image-wrapper.header-content__logo {
+    width: 400px;
+    height: 400px;
+}

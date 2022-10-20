@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
     <div className="header-container">
       <video src={video} autoPlay muted loop />
       <div className="header-content">
-        <StaticImage src='../images/logo.png' alt='Executive Limo Service' />
+        <StaticImage className='header-content__logo' src='../images/logo.png' alt='Executive Limo Service' />
         <h3>Miami's Luxury Limousine Service</h3>
         <div className='header-buttons'>
           <a href='#form' className='btn btn-secondary' style={{ marginRight: '2rem'}}>Book Now</a>
