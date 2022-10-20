@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.contact-info-container {
+    color: white;
+    background-color: black;
+    font-family: 'Prata', serif;
+    padding: 4rem;
+}
+
+.contact-info-wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info-wrapper h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.contact-info-wrapper h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.contact-info-wrapper h3 {
+    padding-left: 2rem;
+    text-align: start;
+    font-size: 1.4rem;
+}
+
+.contact-info-wrapper h3 i {
+    font-size: 3rem;
+    padding-right: 2rem;
+    color: yellow;
+}
+
+@media screen and (max-width: 950px) {
+    .contact-info-wrapper h1 {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .contact-info-wrapper h3 {
+        padding-left: .5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-info-wrapper h3 {
+        font-size: 1.3rem;
+    }
+}

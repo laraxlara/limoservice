@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.faq-container {
+    background-color: black;
+    font-family: 'Prata', serif;
+}
+
+.faq-wrapper {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.faq-wrapper div,
+.faq-wrapper button {
+    color: rgb(219, 219, 219);
+    background-color: rgb(25, 25, 25);
+    font-size: 1.2rem;
+}
+
+.faq-wrapper p {
+    color: rgb(219, 219, 219);
+    font-size: 2rem;
+    padding: 3rem;
+    justify-content: center;
+    text-align: start;
+}

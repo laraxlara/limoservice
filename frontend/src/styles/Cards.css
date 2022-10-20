@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.cards-container {
+    background-color: black;
+    padding: 1.6rem;
+    font-family: 'Prata', serif;
+}

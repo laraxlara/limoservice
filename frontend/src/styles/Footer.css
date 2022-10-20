@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.footer-container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(217, 216, 214);
+    padding-top: 0;
+    font-family: 'Prata', serif;
+}
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+
+.footer-contact,
+.footer-logo,
+.footer-links {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.footer-contact h4 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    color: rgb(217, 216, 214);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.footer-links a:hover {
+    letter-spacing: 0.5rem;
+    transition: 1s ease;
+}
+
+.footer-icons {
+    margin-top: 0.5rem;
+}
+
+.footer-icons svg {
+    color: white;
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footer-icons svg:hover {
+    transform: scale(1.2);
+    transition: ease-out;
+}
+
+.footer-links-title {  
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 1rem;
+}
+
+.footer-copyright {
+    margin: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .footer-links-title {
+        font-size: 51px;
+        line-height: 61.6px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .footer-contact,
+    .footer-logo,
+    .footer-links {
+        margin: 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-container {
+        padding: 0 0 2rem 0;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer-logo img:first-child {
+        width: 80%;
+    }
+}

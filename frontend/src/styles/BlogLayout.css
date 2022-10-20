@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin: 3rem 7rem 3rem 7rem;
+    font-family: 'Prata', serif;
+}
+
+.blog-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-content {
+    padding-right: 4rem;
+}
+
+.blog-content .blog-header {
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.blog-content .blog-header h1 {
+    font-size: 3rem;
+}
+
+.blog-content .blog-header h2 {
+    padding-bottom: 2rem;
+}
+
+.blog-right a {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.blog-links {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .blog-wrapper {
+        flex-direction: column;
+    }
+    .blog-container {
+        margin: 1rem;
+    }
+}

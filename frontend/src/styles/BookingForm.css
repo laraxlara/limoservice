@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.booking-form-container {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 3rem;
+    font-family: 'Prata', serif;
+}
+
+.booking-form-wrapper {
+    padding: 2rem 12rem 2rem 12rem;
+}
+
+.booking-form-wrapper form {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.field-label {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .booking-form-wrapper {
+        padding: 3rem 2rem 1rem 2rem;
+    }
+}

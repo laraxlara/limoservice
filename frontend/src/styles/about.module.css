@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.aboutPage {  
+    padding: 4rem;
+    font-family: 'Prata', serif;
+}
+
+.sliderWrapper img {
+    padding-top: 3rem;
+}
+
+.aboutPageContent h6,
+.aboutPageContent h1,
+.aboutPageContent h4 {
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.aboutPageContent p {
+    font-size: 1.2rem;
+    max-width: 1000px;
+}
+  
+@media screen and (max-width: 750px) {
+    .aboutPage {
+        padding: 1rem;
+    }
+}
+  

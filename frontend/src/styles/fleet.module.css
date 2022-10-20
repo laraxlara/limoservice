@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+
+.fleetPageContainer {
+    font-family: 'Prata', serif;
+}
+
+.fleetHeaderWrapper {
+    background: linear-gradient(rgba(28, 28, 28, 0.552), rgba(19, 18, 18, 0.711)), url('../images/header.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.fleetHeaderWrapper h5 {
+    color: white;
+    justify-content: center;
+    text-align: start;
+    padding: 5rem;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: lighter;   
+}
+
+.fleetHeaderWrapper h3 {
+    color: white;
+    justify-content: center;
+    text-align: start;
+    padding-left: 4.5rem;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: lighter; 
+}
+
+.fleetContentHeader {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: .2rem;
+}
+
+.fleetContentHeader h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    padding: 6rem;
+}
+
+.fleetContentPageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.fleetWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.fleetCardContentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    max-width: 95rem;
+    padding: 5rem;
+}
+
+.fleetCardImage {
+    max-width: 50%;
+}
+
+.fleetCardImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.fleetCardContent {
+    max-width: 50%;
+    padding: 2rem;
+}
+
+.fleetCardContent h6 {
+    font-size: 2rem;
+}
+
+.fleetCardContent p {
+    font-size: 1.3rem;
+}
+
+.fleetCardContent a {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 950px) {
+    .fleetContentHeader h1 {
+        padding: 4rem 0 0 0; 
+        font-size: 1.3rem;
+    }
+    .fleetHeaderWrapper h5 {
+        font-size: 2rem;
+    }
+    .fleetCardContent {
+        max-width: 100%;
+        padding: 0;
+    }
+    .fleetHeaderWrapper h5,
+    .fleetHeaderWrapper h3 {
+        padding: 1.5rem;
+    }
+    .fleetCardContentWrapper {
+        padding: 1rem;
+    }
+    .fleetCardContent h6 {
+        font-size: 1.7rem;
+    }
+    .fleetCardContent p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .fleetCardContentWrapper {
+        flex-direction: column;
+    }
+    .fleetCardImage {
+        max-width: 100%;
+    }
+}

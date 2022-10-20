@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin: 3rem 7rem 3rem 7rem;
+    font-family: 'Prata', serif;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.service-content {
+    padding-right: 4rem;
+}
+
+.service-content h3 {
+    font-size: 1rem;
+}
+
+.service-content-header h1,
+.service-content-header p {
+    font-size: 2.5rem;
+    line-height: .9rem;
+}
+
+.service-content-header h2 {
+    font-size: .9rem;
+    padding-bottom: 3rem;
+}
+
+.service-content p {
+    padding-bottom: 1.5rem;
+}
+
+
+.service-right a {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.service-links {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.service-page-down h3 {
+    font-size: 2rem;
+    padding: 2rem 0 5rem 0;
+}
+
+.service-page-down .service-page-h5 {
+    padding: 4rem;
+}
+
+.service-page-down h3 span {
+    color: red;
+    font-size: 3rem;
+}
+
+.service-page-down h4 br {
+    padding-bottom: 2rem;
+}
+
+.service-page-down h4 i {
+    font-size: 4rem;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .services-wrapper {
+        flex-direction: column;
+    }
+    .services-container {
+        margin: 3rem;
+    }
+    .service-content-header h1,
+    .service-content-header p {
+        line-height: 1rem;
+        font-size: 1.4rem;
+    }
+}
