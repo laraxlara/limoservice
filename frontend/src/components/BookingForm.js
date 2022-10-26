@@ -23,7 +23,8 @@ const BookingForm = () => {
         e.preventDefault();
         setSent(true)
         try {
-            await axios.post('http://localhost:5000/send', {
+            // TODO Replace with config url
+            await axios.post('http://executivelimoservice:80/send', {
                 name,
                 phoneNumber,
                 email,

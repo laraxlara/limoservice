@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  backend:
+    image: laraxlara/executivelimoservice-backend:latest
+    restart: always
+    container_name: executivelimoservice-backend
+    env_file:
+      - .env
+ 
