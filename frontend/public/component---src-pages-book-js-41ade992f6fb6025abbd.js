@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[8353],{4147:function(e,t,n){n.r(t),n.d(t,{Head:function(){return c}});var l=n(7294),r=n(8051),u=n(262),a=n(2808),c=function(){return l.createElement(u.Z,{title:"Book Online"})};t.default=function(){return l.createElement(l.Fragment,null,l.createElement(r.Z,null,l.createElement("div",null,l.createElement(a.Z,null))))}}}]);
-//# sourceMappingURL=component---src-pages-book-js-41ade992f6fb6025abbd.js.map
