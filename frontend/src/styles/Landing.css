@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Prata&display=swap');
 
 .landing-home-page {
+    padding-top: 3rem;
     font-family: 'Prata', serif;
 }
 

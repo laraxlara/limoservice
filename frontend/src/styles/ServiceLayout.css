@@ -89,4 +89,7 @@
         line-height: 1rem;
         font-size: 1.4rem;
     }
+    .service-page-down .service-page-h5 {
+        padding: 1rem;
+    }
 }

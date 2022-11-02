@@ -49,4 +49,7 @@
     .blog-container {
         margin: 1rem;
     }
+    .blog-content .blog-header h1 {
+        font-size: 1.2rem;
+    }
 }

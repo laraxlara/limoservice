@@ -17,7 +17,6 @@ const BlogLayout = ({ children, title }) => {
               <h4>Blog</h4>
             </div>
             <p>{children}</p>
-            <StaticImage src='../../images/blog.jpg' alt='' />
         </div>
 
         <div className='blog-right'>
@@ -26,21 +25,13 @@ const BlogLayout = ({ children, title }) => {
                 <Link to='/about'>Learn More Executive Limo Service</Link>
             </div>
             <Card style={{ width: '22rem', marginBottom: '2rem' }}>
-              <StaticImage variant="top" src="../images/fleet5.jpg" />
+              <StaticImage variant="top" src="../images/fleet5.jpg" alt='black car' />
               <Card.Body>
                 <Card.Title>Luxury Fleet Miami</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Chauffered Black Car Service</Card.Subtitle>
                 <Card.Text>Executive Limo Service is a luxury transportation service that offers an extensive fleet of vehicles. All our chauffeurs are highly trained and licensed professionals in charge of looking after all of your needs.</Card.Text>
                 <Card.Link href='/fleet'>See Fleet</Card.Link>
               </Card.Body>
-            </Card>
-            <Card style={{ width: '22rem' }}>
-                <Card.Body>
-                    <Card.Title>Luxury Fleet Miami</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Chauffered Black Car Service</Card.Subtitle>
-                    <Card.Text>>Executive Limo Service is a luxury transportation service that offers an extensive fleet of vehicles. All our chauffeurs are highly trained and licensed professionals in charge of looking after all of your needs.</Card.Text>
-                    <Button variant='danger'>Book Now</Button>
-                </Card.Body>
             </Card>
         </div>
       </div>

@@ -29,6 +29,6 @@ form .form-inst {
 
 @media screen and (max-width: 1200px) {
     .contact-form-wrapper {
-        padding: 3rem 2rem 1rem 2rem;
+        padding: 2rem 1rem .5rem 1rem;
     }
 }

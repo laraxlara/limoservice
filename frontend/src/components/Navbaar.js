@@ -27,45 +27,47 @@ const Navbaar = () => {
             <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/services">See All Services</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/wedding" disabled>Special Occassion Limo Service</NavDropdown.Item>
+              <NavDropdown.Item disabled>Special Occassion Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/corporate">Wedding Limo Service</NavDropdown.Item>
-              <NavDropdown.Item href="/">Prom Limo Service</NavDropdown.Item>
-              <NavDropdown.Item href="/">Proposal || Engagement Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/wedding-limo-service">Wedding Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/prom-limo-service">Prom Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/proposal-and-engagement-limo-service">Proposal || Engagement Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/wedding" disabled>Corporate Limo Service</NavDropdown.Item>
+              <NavDropdown.Item disabled>Corporate Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/prom">Business Events</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Conference Events</NavDropdown.Item>
+              <NavDropdown.Item href="/services/conference-limo-service">Conference Events</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/wedding" disabled>Airport || Seaport Limo Service</NavDropdown.Item>
+              <NavDropdown.Item disabled>Airport || Seaport Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/bachelor">Airport Miami Car Service</NavDropdown.Item>
-              <NavDropdown.Item href="/services/bachelor">Seaport Miami Car Service</NavDropdown.Item>
-              <NavDropdown.Item href="/services/bachelor">MIA to Miami Beach</NavDropdown.Item>
-              <NavDropdown.Item href="/services/bachelor">MIA to Port Miami</NavDropdown.Item>
-              <NavDropdown.Item href="/services/bachelor">MIA to Port Miami</NavDropdown.Item>
-              <NavDropdown.Item href="/services/bachelor">Fort Lauderdale Transfers</NavDropdown.Item>
+              <NavDropdown.Item href="/services/airport-miami-limo-service">Airport Miami Car Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/seaport-miami-limo-service">Seaport Miami Car Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/mia-to-miami-beach-transfers">MIA to Miami Beach</NavDropdown.Item>
+              <NavDropdown.Item href="/services/mia-to-port-miami-transfers">MIA to Port Miami</NavDropdown.Item>
+              <NavDropdown.Item href="/services/mia-to-port-everglades-transfers">MIA to Port Everglades</NavDropdown.Item>
+              <NavDropdown.Item href="/services/fort-lauderdale-airport-miami-transfers">Fort Lauderdale Transfers</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/wedding" disabled>Long Distance Limo Service</NavDropdown.Item>
+              <NavDropdown.Item disabled>Long Distance Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/prom">Out Of City Rides</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Out Of State Rides</NavDropdown.Item>
+              <NavDropdown.Item href="/services/out-of-city-rides">Out Of City Rides</NavDropdown.Item>
+              <NavDropdown.Item href="/services/out-of-state-rides">Out Of State Rides</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/wedding" disabled>Party Limo Service</NavDropdown.Item>
+              <NavDropdown.Item disabled>Party Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/prom">Birthday Limo Service</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Bachelorette Limo Service</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Bachelor Limo Service</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Quinceañera || Sweet 16 Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/birthday-limo-service-miami">Birthday Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/homecoming-limo-service">Homecoming Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/graduation-day-limo-service">Graduation Day Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/bachelorette-limo-service-miami">Bachelorette Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/bachelor-limo-service-miami">Bachelor Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/sweet-16-limo-service">Sweet 16 Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/quincenera-limo-service">Quinceañera</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/wedding" disabled>Tours || Events Limo Service</NavDropdown.Item>
+              <NavDropdown.Item disabled>Tours || Events Limo Service</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/services/prom">Winery Tours Limo Rental</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Sports Events Limo Rental</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Music Events || Night Out</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Miami Sightseeing Limo Rental</NavDropdown.Item>
-              <NavDropdown.Item href="/services/tour">Red Carpet Limo Service</NavDropdown.Item>
+              <NavDropdown.Item href="/services/miami-tours-events-limo">Miami Tours And Events Limo</NavDropdown.Item>
+              <NavDropdown.Item href="/services/art-basel-limo-service">Art Basel Limo</NavDropdown.Item>
+              <NavDropdown.Item href="/services/winery-tours-miami">Winery Tours</NavDropdown.Item>
+              <NavDropdown.Item href="/services/music-events-miami">Music Festivas And Night Out</NavDropdown.Item>
+              <NavDropdown.Item href="/services/miami-sightseeing-limo">Miami Sightseeing Limo Rental</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>           
