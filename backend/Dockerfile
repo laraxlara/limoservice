@@ -6,8 +6,8 @@ COPY . .
 
 RUN apk add g++ make py3-pip
 
-RUN npm install
+RUN npm install --legacy-peer-deps
 
-EXPOSE 3000
+EXPOSE 5000
 
 CMD ["npm", "run", "server"]
