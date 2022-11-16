@@ -24,7 +24,7 @@ const BookingForm = () => {
     setSent(true)
     try {
       // TODO Replace with config url
-      await axios.post("http://executivelimoservice:80/send", {
+      await axios.post("http://localhost:4000/send", {
         name,
         phoneNumber,
         email,

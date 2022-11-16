@@ -1,6 +1,5 @@
 {
   "name": "gatsby-starter-default",
-  "proxy": "http://localhost:5000",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
@@ -39,8 +38,8 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 gatsby build",
-    "develop": "cross-env NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",
+    "build": "cross-env SERVER_URL=http://http://executivelimoservicemiami.com NODE_OPTIONS=--max-old-space-size=4096 gatsby build",
+    "develop": "cross-env SERVER_URL=http://localhost:4000 NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "cross-env NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",
     "serve": "cross-env NODE_OPTIONS=--max-old-space-size=4096 gatsby serve",
