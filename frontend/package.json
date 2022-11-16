@@ -38,7 +38,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "cross-env SERVER_URL=http://http://executivelimoservicemiami.com NODE_OPTIONS=--max-old-space-size=4096 gatsby build",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 gatsby build",
     "develop": "cross-env SERVER_URL=http://localhost:4000 NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "cross-env NODE_OPTIONS=--max-old-space-size=4096 gatsby develop",

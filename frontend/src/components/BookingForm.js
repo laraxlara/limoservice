@@ -24,7 +24,7 @@ const BookingForm = () => {
     setSent(true)
     try {
       // TODO Replace with config url
-      await axios.post(`${process.env.SERVER_URL}/send`, {
+      await axios.post(`/send`, {
         name,
         phoneNumber,
         email,
